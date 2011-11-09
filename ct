@@ -1,0 +1,2 @@
+#!/bin/sh
+./rebar -C "rebar_ct.config" clean compile ct

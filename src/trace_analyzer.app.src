@@ -1,0 +1,12 @@
+{application, trace_analyzer,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { trace_analyzer_app, []}},
+  {env, []}
+ ]}.
